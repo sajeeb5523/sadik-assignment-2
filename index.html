@@ -16,13 +16,13 @@
 
     <title>TechWave</title>
 </head>
-<body class="inter-font  max-w-[1600px]">
+<body class="inter-font  max-w-full">
 
     <header class="">
 
         <nav class="bg-[#412567]" >
 
-           <div class="py-[24px] max-w-[1440px] mx-auto my-0 flex justify-between items-center">
+           <div class="py-[24px] px-[100px] mx-auto my-0 flex justify-between items-center">
 
 
                 <h3 class="text-6xl font-bold ">
@@ -51,8 +51,14 @@
 
         <section>
             <div class="py-[101px] bg-[url('./images/hero-bg.png')] flex flex-col justify-between items-center">
-                <img src="./images/hero-circle.png " alt="">
-
+                <div>
+                    <div class="relative flex justify-center items-center">
+                        <img src="./images/hero-circle.png " alt="">
+                        <span class="absolute"><img src="./images/microphone.png" alt=""></span>
+                        <span class="absolute right-0 top-[30px] transform"><button
+                            class="bg-[green] text-white rounded-2xl px-3.5 py-1.5">new</button></span>
+                    </div>
+                </div>
 
                 <div class="text-white flex flex-col justify-between items-center py-[40px]" >
 
@@ -61,6 +67,7 @@
 
 
                     <div class="flex gap-[10px] py-[24px]">
+
                         <button class="text-white px-[20px] hover:text-red-950 cursor-pointer py-[17px] rounded-full font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip text-transparent"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
                         <button class="cursor-pointer py-[15px] px-[27px] border-2 border-solid border-green-500 rounded-full text-green-500"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                     </div>
@@ -140,37 +147,50 @@
                 <h3>Why Choose TechWave</h3>
 
                
-                    <div class="grid-cols-3">
-                        <div>
+                <div class="gap-[30px]">
+                    <div class="grid grid-cols-[550px_1fr] ">
+                        <div class="border-2 border-solid rounded-[40px] m-[30px] p-[40px]">
                             <img src="./images/headphone.png" alt="Premium Audio Quality">
                             <h4>Premium Audio Quality</h4>
-                            <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                            <p>Experience crystal-clear sound with professional-grade recording equipment and expert
+                                audio engineering. Every episode is mastered for optimal listening across all devices
+                                and platforms.</p>
+                        </div>
+                        <div class="grid grid-cols-1 ">
+                            <div class="border-2 border-solid m-[30px] rounded-[40px] p-[40px]">
+                                <img src="./images/device.png" alt="Mobile Friendly">
+                                <h4>Mobile Friendly</h4>
+                                <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+                            </div>
+
+                            <div class="border-2 border-solid m-[30px] rounded-[40px] p-[40px]">
+                                <img src="./images/location.png" alt="Global Community">
+                                <h4>Global Community</h4>
+                                <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                            </div>
                         </div>
 
-                        <div>
-                            <img src="./images/device.png" alt="Mobile Friendly">
-                            <h4>Mobile Friendly</h4>
-                            <p>Listen on the go with seamless mobile experience and offline downloads.</p>
-                        </div>
+                    </div>
 
-                        <div>
-                            <img src="./images/location.png" alt="Global Community">
-                            <h4>Global Community</h4>
-                            <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
-                        </div>
-
-                        <div>
+                    <div class="grid grid-cols-[1050px_1fr] ">
+                        <div class="border-2 border-solid m-[30px] rounded-[40px] p-[40px]">
                             <img src="./images/location.png" alt="Exclusive Interviews">
                             <h4>Exclusive Interviews</h4>
-                            <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+                            <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our
+                                host
+                                secures exclusive conversations you won't find anywhere else, diving deep into their
+                                journeys, failures, and success strategies.</p>
                         </div>
 
-                        <div>
+                        <div class="border-2 border-solid m-[30px] rounded-[40px] p-[40px]">
                             <img src="./images/resource.png" alt="Rich Resources">
                             <h4>Rich Resources</h4>
                             <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
                         </div>
                     </div>
+
+                </div>
+
             
             </div>
         </section>
@@ -178,6 +198,26 @@
         <!-- -------Meet-the-Host------- -->
         <!-- -------Meet-the-Host------- -->
 
+        <section>
+            <div class="flex flex-col justify-between items-center">
+               <h3 class="font-bold text-[48px]"> Meet the Host</h3>
+                
+                <div class="flex ">
+                    <img src="./images/host.png" alt="host">
+                    <div>
+
+                        <h3>Alex Kumar</h3>
+                        <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        <div>
+                            <img src="./images/linkedin.png" alt="linkedin">
+                            <img src="./images/x.png" alt="x">
+                            <img src="./images/instagram.png" alt="instagram">
+                            <img src="./images/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         
 
@@ -216,7 +256,7 @@
                 <img src="./images/twitter.png" alt="">
                 <span>Twitter</span>
             </li>
-            
+
         </ul>
 
         <h6>© 2025 TechWave Podcast. All rights reserved.</h6>
