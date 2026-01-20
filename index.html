@@ -231,82 +231,88 @@
             <!-- ------------Featured-Episodes---------- --><!-- ------------Featured-Episodes---------- -->
 
 
-            <div class="flex flex-col justify-between items-center pt-[100px] ">
-                <h3 class="font-bold text-[48px]">
-                    Featured Episodes
-                </h3>
-                <div class="flex py-[40px] gap-[30px] ">
-                    <div
-                        class="w-[380px]  bg-[#250D44] rounded-[24px] cursor-pointer hover:-translate-y-1.5 hover:shadow-x1 duration-200">
-
-                        <span class=""><iframe class="w-[380px] h-[200px] rounded-t-[24px]"
-                                src="https://www.youtube.com/embed/H5zSQ9M_s2Y?si=n9D5ENp4QWPG-99K"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></span>
-
-                        <div class="p-[24px]">
-                            <h5 class="font-bold text-[24px] ">
-                                The Future of AI in Everyday Life
-                            </h5>
-                            <p class="py-[12px]">Exploring how artificial intelligence is transforming our daily
-                                routines and what to expect in the next decade.
-
-                            </p>
-                            <div class="flex items-center gap-[10px] p-[20px]">
-                                <span> <img src="./images/clock.png" alt="clock"></span>
-                                <p>42 min</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-[380px] bg-[#250D44] rounded-[24px] cursor-pointer hover:-translate-y-1.5 hover:shadow-x1 duration-200">
-
-                        <iframe class="w-[380px] h-[200px] rounded-t-[24px]"
-                            src="https://www.youtube.com/embed/8qCVXCFREkQ?si=xNerDlGB60OqgRY3"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                        <div class="p-[24px]">
-                            <h5 class="font-bold text-[24px] ">
-                                Building Better Habits for Remote Work
-                            </h5>
-                            <p class="py-[12px]">Practical strategies for staying productive and maintaining work-life
-                                balance in a remote environment.</p>
-                            <div class="flex items-center gap-[10px] p-[20px]">
-                                <span><img src="./images/clock.png" alt="clock"></span>
-                                <p>35 min</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div
-                        class="w-[380px] bg-[#250D44] rounded-[24px] cursor-pointer hover:-translate-y-1.5 hover:shadow-x1 duration-200">
-                        <iframe class="w-[380px] h-[200px] rounded-t-[24px]"
-                            src="https://www.youtube.com/embed/9LZ1JgAJ7c4?si=6dctYpqbnPKbL6d1"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                        <div class="p-[24px]">
-                            <h5 class="font-bold text-[24px] ">
-                                Career Growth in Tech: A Roadmap
-                            </h5>
-                            <p class="py-[12px]">Expert advice on navigating your tech career from junior developer to
-                                senior leadership roles.</p>
-                            <div class="flex items-center gap-[10px] p-[20px]">
-                                <span><img src="./images/clock.png" alt="clock"></span>
-                                <span>51 min</span>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
+        Featured Episodes
+    </h3>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+        <div class="bg-[#250D44] rounded-3xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe 
+                    class="w-full h-48 sm:h-56 lg:h-48"
+                    src="https://www.youtube.com/embed/H5zSQ9M_s2Y?si=n9D5ENp4QWPG-99K"
+                    title="YouTube video player" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
             </div>
+            <div class="p-6">
+                <h5 class="text-xl font-bold mb-3 line-clamp-2">
+                    The Future of AI in Everyday Life
+                </h5>
+                <p class="text-gray-300 text-sm mb-4 line-clamp-3">
+                    Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.
+                </p>
+                <div class="flex items-center text-sm text-gray-400">
+                    <img class="w-4 h-4 mr-2" src="./images/clock.png" alt="Duration">
+                    <span>42 min</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#250D44] rounded-3xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe 
+                    class="w-full h-48 sm:h-56 lg:h-48"
+                    src="https://www.youtube.com/embed/8qCVXCFREkQ?si=xNerDlGB60OqgRY3"
+                    title="YouTube video player" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="p-6">
+                <h5 class="text-xl font-bold mb-3 line-clamp-2">
+                    Building Better Habits for Remote Work
+                </h5>
+                <p class="text-gray-300 text-sm mb-4 line-clamp-3">
+                    Practical strategies for staying productive and maintaining work-life balance in a remote environment.
+                </p>
+                <div class="flex items-center text-sm text-gray-400">
+                    <img class="w-4 h-4 mr-2" src="./images/clock.png" alt="Duration">
+                    <span>35 min</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#250D44] rounded-3xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe 
+                    class="w-full h-48 sm:h-56 lg:h-48"
+                    src="https://www.youtube.com/embed/9LZ1JgAJ7c4?si=6dctYpqbnPKbL6d1"
+                    title="YouTube video player" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="p-6">
+                <h5 class="text-xl font-bold mb-3 line-clamp-2">
+                    Career Growth in Tech: A Roadmap
+                </h5>
+                <p class="text-gray-300 text-sm mb-4 line-clamp-3">
+                    Expert advice on navigating your tech career from junior developer to senior leadership roles.
+                </p>
+                <div class="flex items-center text-sm text-gray-400">
+                    <img class="w-4 h-4 mr-2" src="./images/clock.png" alt="Duration">
+                    <span>51 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
             <!-- -------Meet-the-Host------- --><!-- -------Meet-the-Host------- -->
